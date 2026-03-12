@@ -1,0 +1,64 @@
+2026-03-11 06:26:43.662 [warning] Dir "/home/rakeshsarmakarra/.pixi/envs" is not watchable (directory does not exist)
+2026-03-11 06:26:44.089 [info] Starting Environment refresh
+2026-03-11 06:26:44.089 [info] Searching for interpreters in posix paths locator
+2026-03-11 06:26:44.099 [info] Searching for pyenv environments
+2026-03-11 06:26:44.099 [info] Searching for conda environments
+2026-03-11 06:26:44.100 [info] Searching for global virtual environments
+2026-03-11 06:26:44.100 [info] Searching for custom virtual environments
+2026-03-11 06:26:44.108 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-11 06:26:44.109 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-11 06:26:44.112 [info] pyenv is not installed
+2026-03-11 06:26:44.112 [info] Finished searching for pyenv environments: 21 milliseconds
+2026-03-11 06:26:44.112 [info] Finished searching for custom virtual envs: 20 milliseconds
+2026-03-11 06:26:44.123 [info] > conda info --json
+2026-03-11 06:26:44.137 [info] > hatch env show --json
+2026-03-11 06:26:44.137 [info] cwd: .
+2026-03-11 06:26:44.147 [info] > pyenv which python
+2026-03-11 06:26:44.147 [info] cwd: .
+2026-03-11 06:26:44.148 [info] Finished searching for global virtual envs: 56 milliseconds
+2026-03-11 06:26:44.163 [info] Found: /bin/python --> /bin/python3.12
+2026-03-11 06:26:44.164 [info] Found: /bin/python3 --> /bin/python3.12
+2026-03-11 06:26:44.165 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-03-11 06:26:44.179 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-03-11 06:26:44.180 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-03-11 06:26:44.180 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-03-11 06:26:44.231 [info] Finished searching for interpreters in posix paths locator: 134 milliseconds
+2026-03-11 06:26:44.231 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-03-11 06:26:44.255 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-03-11 06:26:44.255 [info] Environments refresh paths discovered (event): 168 milliseconds
+2026-03-11 06:26:44.255 [info] Environments refresh paths discovered: 168 milliseconds
+2026-03-11 06:26:44.313 [info] Environments refresh finished (event): 226 milliseconds
+2026-03-11 06:26:44.323 [info] Environment refresh took 236 milliseconds
+2026-03-11 06:26:44.329 [info] Python interpreter path: /bin/python
+2026-03-11 06:26:46.446 [info] Starting Jedi language server for rakeshsarmakarra.
+2026-03-11 06:30:06.980 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:20.676 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:29.008 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:35.701 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:43.494 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:49.029 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:30:53.971 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:01.868 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:06.542 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:08.642 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:13.446 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:16.906 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:26.911 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:37.057 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:43.417 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:48.971 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:54.440 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:31:57.953 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:33:09.836 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:33:11.748 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:33:59.897 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:34:16.118 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:42:00.361 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:44:56.549 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:45:32.661 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:45:33.054 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:47:06.294 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:47:06.559 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:54:16.395 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:54:16.782 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py
+2026-03-11 06:54:17.151 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_0/generator.py

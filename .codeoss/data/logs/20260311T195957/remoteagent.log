@@ -1,0 +1,10 @@
+2026-03-11 19:59:58.263 [info] 
+
+
+
+
+2026-03-11 19:59:58.263 [info] Extension host agent started.
+2026-03-11 20:00:02.255 [info] [127.0.0.1][38d38320][ExtensionHostConnection] New connection established.
+2026-03-11 20:00:02.256 [info] [127.0.0.1][17ba233b][ManagementConnection] New connection established.
+2026-03-11 20:00:03.066 [info] [127.0.0.1][38d38320][ExtensionHostConnection] <1416> Launched Extension Host Process.
+2026-03-11 22:32:13.682 [info] [127.0.0.1][17ba233b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

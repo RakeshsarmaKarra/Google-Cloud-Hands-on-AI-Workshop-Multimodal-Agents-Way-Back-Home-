@@ -1,0 +1,41 @@
+2026-03-11 20:00:08.179 [warning] Dir "/home/rakeshsarmakarra/.pixi/envs" is not watchable (directory does not exist)
+2026-03-11 20:00:11.920 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-11 20:00:12.351 [info] Python interpreter path: /bin/python
+2026-03-11 20:00:12.538 [info] > pyenv which python
+2026-03-11 20:00:12.538 [info] cwd: .
+2026-03-11 20:00:15.174 [info] Starting Jedi language server for rakeshsarmakarra.
+2026-03-11 20:07:56.760 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:07:58.470 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:08:00.067 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:13:27.596 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:13:28.897 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:13:29.581 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:15:28.052 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/mcp-server/main.py
+2026-03-11 20:32:07.818 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/geological_analyst.py
+2026-03-11 20:32:08.158 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/geological_analyst.py
+2026-03-11 20:32:08.492 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/geological_analyst.py
+2026-03-11 20:34:12.198 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/geological_analyst.py
+2026-03-11 20:34:19.783 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/botanical_analyst.py
+2026-03-11 20:35:43.772 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/botanical_analyst.py
+2026-03-11 20:36:39.573 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/botanical_analyst.py
+2026-03-11 20:41:46.616 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/astronomical_analyst.py
+2026-03-11 20:41:52.837 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/astronomical_analyst.py
+2026-03-11 20:43:32.311 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/astronomical_analyst.py
+2026-03-11 20:43:32.644 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agents/astronomical_analyst.py
+2026-03-11 20:44:44.394 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 20:44:48.718 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 20:45:56.727 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 20:45:57.089 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 20:49:17.759 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 21:19:00.655 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/mcp_tools.py
+2026-03-11 21:20:03.142 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/star_tools.py
+2026-03-11 21:27:57.634 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/star_tools.py
+2026-03-11 21:27:59.605 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/star_tools.py
+2026-03-11 21:33:39.533 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agent.py
+2026-03-11 21:33:40.142 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agent.py
+2026-03-11 21:35:04.725 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agent.py
+2026-03-11 21:35:24.336 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/agent.py
+2026-03-11 21:38:06.443 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/confirm_tools.py
+2026-03-11 21:38:07.042 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/confirm_tools.py
+2026-03-11 21:38:07.452 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/confirm_tools.py
+2026-03-11 21:42:36.050 [info] Discover tests for workspace name: rakeshsarmakarra - uri: /home/rakeshsarmakarra/way-back-home/level_1/agent/tools/confirm_tools.py

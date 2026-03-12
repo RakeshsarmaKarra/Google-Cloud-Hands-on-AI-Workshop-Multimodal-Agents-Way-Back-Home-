@@ -1,0 +1,81 @@
+2026-03-11 20:00:05.257 [info] Extension host with pid 1416 started
+2026-03-11 20:00:05.258 [error] Error: EEXIST: file already exists, open '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock'
+2026-03-11 20:00:05.266 [info] Lock '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-03-11 20:00:05.267 [info] Lock '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock': The lock looks stale, waiting for 2s.
+2026-03-11 20:00:05.944 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2026-03-11 20:00:05.946 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-11 20:00:05.946 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-03-11 20:00:06.768 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:391:6611)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13265832
+    at get value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13257414)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13233624
+    at Function.r (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13186443)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13153797
+    at r (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13186443)
+    at new ZodObject (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13186651)
+    at t.looseObject (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:13138951)
+    at 66472 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12974147)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 3859 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12945564)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 26485 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12903337)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 63517 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12912229)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 46215 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12477722)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 54423 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12477032)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 95272 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12467306)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at 50796 (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12461627)
+    at __webpack_require__ (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096007)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096691
+    at Object.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:14096979)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1246:12)
+    at e._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at t._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at r._load (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:201:25846)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1445:12)
+    at require (node:internal/modules/helpers:135:16)
+    at lJ.Cb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-11 20:00:07.191 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-11 20:00:07.267 [info] Lock '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock': The lock looks stale even after waiting for 2s.
+2026-03-11 20:00:07.268 [info] Lock '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock': Deleting a stale lock.
+2026-03-11 20:00:07.291 [info] Lock '/home/rakeshsarmakarra/.codeoss/data/User/workspaceStorage/-358efcb7/vscode.lock': Lock acquired.
+2026-03-11 20:00:07.530 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-11 20:00:07.531 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-11 20:00:08.044 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2026-03-11 20:00:08.361 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-11 20:00:08.361 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-11 20:00:08.362 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-11 20:00:08.676 [info] Eager extensions activated
+2026-03-11 20:00:08.677 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 20:00:08.677 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 20:00:08.678 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 20:00:08.678 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 20:00:08.678 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-11 20:00:11.734 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-03-11 20:00:12.362 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-11 22:19:02.836 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Kb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:41557)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:99:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:83:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:50:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:290:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:281:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12501503) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2026-03-11 22:19:03.842 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:50:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:290:11)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:281:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:8:12501503)

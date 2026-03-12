@@ -1,0 +1,309 @@
+2026-03-11 20:00:08.205 [info] [main] Log level: Info
+2026-03-11 20:00:08.205 [info] [main] Validating found git in: "git"
+2026-03-11 20:00:08.205 [info] [main] Using git "2.43.0" from "git"
+2026-03-11 20:00:08.205 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-11 20:00:08.205 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-11 20:00:08.205 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.205 [info] > git rev-parse --show-toplevel [20ms]
+2026-03-11 20:00:08.207 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-03-11 20:00:08.226 [info] [Model][openRepository] Opened repository (path): /home/rakeshsarmakarra/way-back-home
+2026-03-11 20:00:08.226 [info] [Model][openRepository] Opened repository (real path): /home/rakeshsarmakarra/way-back-home
+2026-03-11 20:00:08.226 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-11 20:00:08.239 [info] > git config --get commit.template [5ms]
+2026-03-11 20:00:08.240 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-11 20:00:08.240 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.250 [info] > git rev-parse --show-toplevel [6ms]
+2026-03-11 20:00:08.250 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.258 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-11 20:00:08.258 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.265 [info] > git rev-parse --show-toplevel [1ms]
+2026-03-11 20:00:08.265 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.272 [info] > git rev-parse --show-toplevel [3ms]
+2026-03-11 20:00:08.272 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.285 [info] > git rev-parse --show-toplevel [9ms]
+2026-03-11 20:00:08.285 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.303 [info] > git rev-parse --show-toplevel [11ms]
+2026-03-11 20:00:08.303 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.316 [info] > git rev-parse --show-toplevel [4ms]
+2026-03-11 20:00:08.316 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.321 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-11 20:00:08.322 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.328 [info] > git rev-parse --show-toplevel [0ms]
+2026-03-11 20:00:08.328 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:08.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [80ms]
+2026-03-11 20:00:08.348 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:00:08.349 [info] > git rev-parse --show-toplevel [17ms]
+2026-03-11 20:00:08.558 [info] > git rev-parse refs/remotes/origin/main [210ms]
+2026-03-11 20:00:08.587 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [233ms]
+2026-03-11 20:00:08.593 [info] [Model][openRepository] Opened repository (path): /home/rakeshsarmakarra/handsonai-credit
+2026-03-11 20:00:08.593 [info] [Model][openRepository] Opened repository (real path): /home/rakeshsarmakarra/handsonai-credit
+2026-03-11 20:00:08.593 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-11 20:00:08.596 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-11 20:00:08.618 [info] > git config --get commit.template [16ms]
+2026-03-11 20:00:08.618 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [49ms]
+2026-03-11 20:00:08.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2026-03-11 20:00:08.673 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/handsonai-credit/.git/refs/remotes/origin/main'
+2026-03-11 20:00:11.855 [info] > git status -z -uall [3292ms]
+2026-03-11 20:00:11.855 [info] > git check-ignore -v -z --stdin [179ms]
+2026-03-11 20:00:11.856 [info] > git rev-parse refs/remotes/origin/main [3183ms]
+2026-03-11 20:00:12.298 [info] > git status -z -uall [436ms]
+2026-03-11 20:00:12.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [383ms]
+2026-03-11 20:00:12.307 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [439ms]
+2026-03-11 20:00:12.403 [info] > git check-ignore -v -z --stdin [76ms]
+2026-03-11 20:00:12.404 [info] > git check-ignore -v -z --stdin [54ms]
+2026-03-11 20:00:12.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [88ms]
+2026-03-11 20:00:12.411 [info] > git config --get --local branch.main.vscode-merge-base [105ms]
+2026-03-11 20:00:12.417 [info] > git config --get commit.template [362ms]
+2026-03-11 20:00:12.417 [info] > git rev-parse --show-toplevel [368ms]
+2026-03-11 20:00:12.417 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:12.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [21ms]
+2026-03-11 20:00:12.446 [info] > git config --get --local branch.main.vscode-merge-base [35ms]
+2026-03-11 20:00:12.453 [info] > git config --get commit.template [93ms]
+2026-03-11 20:00:12.490 [info] > git merge-base refs/heads/main refs/remotes/origin/main [45ms]
+2026-03-11 20:00:12.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2026-03-11 20:00:12.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [72ms]
+2026-03-11 20:00:12.545 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:00:12.567 [info] > git show --textconv :level_1/mcp-server/main.py [54ms]
+2026-03-11 20:00:12.567 [info] > git ls-files --stage -- level_1/mcp-server/main.py [47ms]
+2026-03-11 20:00:12.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2026-03-11 20:00:12.575 [info] > git diff --name-status -z --diff-filter=ADMR 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab...refs/remotes/origin/main [79ms]
+2026-03-11 20:00:12.588 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/handsonai-credit/.git/refs/remotes/origin/main'
+2026-03-11 20:00:12.602 [info] > git cat-file -s a395ed663cef47735e0c2ae9675ed8bad96f56e7 [28ms]
+2026-03-11 20:00:12.602 [info] > git rev-parse refs/remotes/origin/main [57ms]
+2026-03-11 20:00:12.628 [info] > git merge-base refs/heads/main refs/remotes/origin/main [99ms]
+2026-03-11 20:00:12.668 [info] > git diff --name-status -z --diff-filter=ADMR 2e439b3ca01ed9b20d2da5cd52b09cf09632b769...refs/remotes/origin/main [31ms]
+2026-03-11 20:00:12.669 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [54ms]
+2026-03-11 20:00:12.669 [info] > git rev-parse refs/remotes/origin/main [81ms]
+2026-03-11 20:00:12.699 [info] > git status -z -uall [14ms]
+2026-03-11 20:00:12.703 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-03-11 20:00:12.752 [info] > git status -z -uall [142ms]
+2026-03-11 20:00:12.801 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-11 20:00:12.801 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-03-11 20:00:19.833 [info] > git rev-parse --show-toplevel [4ms]
+2026-03-11 20:00:19.879 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-03-11 20:00:19.885 [info] [Model][openRepository] Opened repository (path): /home/rakeshsarmakarra/.gemini/history/cf4291861e8f4d68d447964b789567130c945c92a6d17be1b68f99915fa63190
+2026-03-11 20:00:19.885 [info] [Model][openRepository] Opened repository (real path): /home/rakeshsarmakarra/.gemini/history/cf4291861e8f4d68d447964b789567130c945c92a6d17be1b68f99915fa63190
+2026-03-11 20:00:19.885 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-11 20:00:19.927 [info] > git config --get commit.template [14ms]
+2026-03-11 20:00:19.948 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-11 20:00:19.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-03-11 20:00:20.007 [info] > git status -z -uall [28ms]
+2026-03-11 20:00:20.014 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-03-11 20:00:20.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2026-03-11 20:00:20.097 [info] > git config --get commit.template [29ms]
+2026-03-11 20:00:20.100 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2026-03-11 20:00:20.101 [warning] [Git][config] git config failed: Failed to execute git
+2026-03-11 20:00:20.128 [info] [Git][getRemotes] No remotes found in the git config file
+2026-03-11 20:00:20.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2026-03-11 20:00:20.165 [info] > git reflog main --grep-reflog=branch: Created from *. [52ms]
+2026-03-11 20:00:20.168 [info] > git status -z -uall [18ms]
+2026-03-11 20:00:20.173 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-03-11 20:00:20.586 [info] > git check-ignore -v -z --stdin [23ms]
+2026-03-11 20:00:20.587 [info] > git check-ignore -v -z --stdin [7ms]
+2026-03-11 20:05:59.579 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/mcp-server/main.py [131ms]
+2026-03-11 20:07:57.593 [info] > git config --get commit.template [2ms]
+2026-03-11 20:07:57.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-03-11 20:07:57.608 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:07:57.609 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:07:57.625 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:07:57.714 [info] > git status -z -uall [98ms]
+2026-03-11 20:08:02.734 [info] > git config --get commit.template [8ms]
+2026-03-11 20:08:02.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:08:02.741 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:08:02.743 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:08:02.758 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:08:02.836 [info] > git status -z -uall [87ms]
+2026-03-11 20:13:28.489 [info] > git config --get commit.template [10ms]
+2026-03-11 20:13:28.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:13:28.496 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:13:28.498 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:13:28.513 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:13:28.614 [info] > git status -z -uall [110ms]
+2026-03-11 20:14:12.021 [info] > git config --get commit.template [2ms]
+2026-03-11 20:14:12.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:14:12.037 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:14:12.038 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:14:12.054 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 20:14:12.133 [info] > git status -z -uall [88ms]
+2026-03-11 20:15:28.861 [info] > git config --get commit.template [9ms]
+2026-03-11 20:15:28.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 20:15:28.868 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:15:28.870 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:15:28.885 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:15:28.964 [info] > git status -z -uall [87ms]
+2026-03-11 20:28:45.402 [info] > git ls-files --stage -- level_1/agent/agents/geological_analyst.py [2ms]
+2026-03-11 20:28:45.430 [info] > git show --textconv :level_1/agent/agents/geological_analyst.py [43ms]
+2026-03-11 20:28:45.430 [info] > git cat-file -s 44b873b69bd90205c97e21c4d128dc921af3b634 [20ms]
+2026-03-11 20:28:45.984 [info] > git check-ignore -v -z --stdin [2ms]
+2026-03-11 20:32:04.301 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/agents/geological_analyst.py [4ms]
+2026-03-11 20:32:30.015 [info] > git config --get commit.template [8ms]
+2026-03-11 20:32:30.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:32:30.023 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:32:30.024 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:32:30.040 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:32:30.119 [info] > git status -z -uall [88ms]
+2026-03-11 20:34:13.021 [info] > git config --get commit.template [9ms]
+2026-03-11 20:34:13.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:34:13.030 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:34:13.032 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:34:13.051 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 20:34:13.128 [info] > git status -z -uall [88ms]
+2026-03-11 20:34:17.947 [info] > git show --textconv :level_1/agent/agents/botanical_analyst.py [10ms]
+2026-03-11 20:34:17.948 [info] > git ls-files --stage -- level_1/agent/agents/botanical_analyst.py [4ms]
+2026-03-11 20:34:17.957 [info] > git cat-file -s 89bf2731478a83a480d2394435438f1a4348de7d [2ms]
+2026-03-11 20:34:18.617 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/agents/botanical_analyst.py [5ms]
+2026-03-11 20:34:20.622 [info] > git config --get commit.template [9ms]
+2026-03-11 20:34:20.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:34:20.630 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:34:20.632 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:34:20.648 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:34:20.726 [info] > git status -z -uall [86ms]
+2026-03-11 20:36:37.957 [info] > git config --get commit.template [1ms]
+2026-03-11 20:36:37.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:36:37.973 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:36:37.974 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:36:37.990 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:36:38.067 [info] > git status -z -uall [86ms]
+2026-03-11 20:39:27.840 [info] > git config --get commit.template [10ms]
+2026-03-11 20:39:27.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 20:39:27.851 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:39:27.852 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:39:27.873 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 20:39:27.950 [info] > git status -z -uall [89ms]
+2026-03-11 20:39:59.160 [info] > git show --textconv :level_1/agent/agents/astronomical_analyst.py [9ms]
+2026-03-11 20:39:59.161 [info] > git ls-files --stage -- level_1/agent/agents/astronomical_analyst.py [2ms]
+2026-03-11 20:39:59.170 [info] > git cat-file -s 622abdf17879e19ec20294a74187a3e93299db14 [2ms]
+2026-03-11 20:40:00.579 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/agents/astronomical_analyst.py [5ms]
+2026-03-11 20:41:47.453 [info] > git config --get commit.template [8ms]
+2026-03-11 20:41:47.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:41:47.462 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:41:47.463 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:41:47.478 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:41:47.558 [info] > git status -z -uall [89ms]
+2026-03-11 20:42:54.871 [info] > git config --get commit.template [9ms]
+2026-03-11 20:42:54.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:42:54.879 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:42:54.881 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:42:54.895 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:42:54.973 [info] > git status -z -uall [86ms]
+2026-03-11 20:44:24.828 [info] > git config --get commit.template [9ms]
+2026-03-11 20:44:24.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 20:44:24.835 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:44:24.836 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:44:24.850 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:44:24.930 [info] > git status -z -uall [88ms]
+2026-03-11 20:44:35.359 [info] > git show --textconv :level_1/agent/tools/mcp_tools.py [10ms]
+2026-03-11 20:44:35.359 [info] > git ls-files --stage -- level_1/agent/tools/mcp_tools.py [3ms]
+2026-03-11 20:44:35.368 [info] > git cat-file -s 417cef10a8ce116c83376ed807f2dc9233672ee3 [2ms]
+2026-03-11 20:44:35.959 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-11 20:44:36.160 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/tools/mcp_tools.py [4ms]
+2026-03-11 20:44:45.238 [info] > git config --get commit.template [8ms]
+2026-03-11 20:44:45.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:44:45.246 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:44:45.248 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:44:45.262 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:44:45.340 [info] > git status -z -uall [86ms]
+2026-03-11 20:44:50.359 [info] > git config --get commit.template [8ms]
+2026-03-11 20:44:50.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:44:50.368 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:44:50.369 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:44:50.385 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 20:44:50.461 [info] > git status -z -uall [86ms]
+2026-03-11 20:45:57.920 [info] > git config --get commit.template [7ms]
+2026-03-11 20:45:57.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 20:45:57.928 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:45:57.929 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 20:45:57.944 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:45:58.021 [info] > git status -z -uall [85ms]
+2026-03-11 20:49:18.602 [info] > git config --get commit.template [12ms]
+2026-03-11 20:49:18.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 20:49:18.612 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 20:49:18.613 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 20:49:18.633 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-11 20:49:18.715 [info] > git status -z -uall [93ms]
+2026-03-11 21:18:58.396 [info] > git config --get commit.template [17ms]
+2026-03-11 21:18:58.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-03-11 21:18:58.413 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:18:58.415 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:18:58.452 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:18:58.576 [info] > git status -z -uall [145ms]
+2026-03-11 21:19:06.235 [info] > git config --get commit.template [3ms]
+2026-03-11 21:19:06.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 21:19:06.260 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:19:06.277 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2026-03-11 21:19:06.322 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-03-11 21:19:06.401 [info] > git status -z -uall [102ms]
+2026-03-11 21:19:09.216 [info] > git show --textconv :level_1/agent/tools/star_tools.py [16ms]
+2026-03-11 21:19:09.217 [info] > git ls-files --stage -- level_1/agent/tools/star_tools.py [2ms]
+2026-03-11 21:19:09.233 [info] > git cat-file -s bb4c9d59ee2679e8f9e5f59d897f7755c071db8d [2ms]
+2026-03-11 21:20:00.503 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/tools/star_tools.py [5ms]
+2026-03-11 21:20:04.004 [info] > git config --get commit.template [14ms]
+2026-03-11 21:20:04.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 21:20:04.020 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:20:04.022 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:20:04.056 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:20:04.129 [info] > git status -z -uall [93ms]
+2026-03-11 21:27:58.476 [info] > git config --get commit.template [14ms]
+2026-03-11 21:27:58.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-03-11 21:27:58.491 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:27:58.493 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:27:58.519 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:27:58.619 [info] > git status -z -uall [115ms]
+2026-03-11 21:33:08.844 [info] > git config --get commit.template [16ms]
+2026-03-11 21:33:08.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-03-11 21:33:08.862 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:33:08.864 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:33:08.898 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:33:08.966 [info] > git status -z -uall [88ms]
+2026-03-11 21:33:23.970 [info] > git show --textconv :level_1/agent/agent.py [16ms]
+2026-03-11 21:33:23.972 [info] > git ls-files --stage -- level_1/agent/agent.py [3ms]
+2026-03-11 21:33:23.988 [info] > git cat-file -s bf50ca72800bee560433a9e8e2da9ced1d5ed26d [2ms]
+2026-03-11 21:33:28.108 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/agent.py [5ms]
+2026-03-11 21:34:22.685 [info] > git config --get commit.template [19ms]
+2026-03-11 21:34:22.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 21:34:22.702 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:34:22.704 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:34:22.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-03-11 21:34:22.813 [info] > git status -z -uall [92ms]
+2026-03-11 21:35:05.583 [info] > git config --get commit.template [16ms]
+2026-03-11 21:35:05.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 21:35:05.598 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:35:05.600 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:35:05.630 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:35:05.704 [info] > git status -z -uall [90ms]
+2026-03-11 21:35:25.190 [info] > git config --get commit.template [15ms]
+2026-03-11 21:35:25.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 21:35:25.206 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:35:25.208 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:35:25.242 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:35:25.314 [info] > git status -z -uall [92ms]
+2026-03-11 21:37:31.178 [info] > git show --textconv :level_1/agent/tools/confirm_tools.py [15ms]
+2026-03-11 21:37:31.179 [info] > git ls-files --stage -- level_1/agent/tools/confirm_tools.py [2ms]
+2026-03-11 21:37:31.197 [info] > git cat-file -s e8d53345ed1e5f599a237b890b5c430eb55bf99f [2ms]
+2026-03-11 21:38:04.709 [info] > git blame --root --incremental 4a8e9ab4fcf075cd0af29d514b8097929ff1c2ab -- level_1/agent/tools/confirm_tools.py [5ms]
+2026-03-11 21:40:42.963 [info] > git config --get commit.template [16ms]
+2026-03-11 21:40:42.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-11 21:40:42.981 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:40:42.982 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-03-11 21:40:43.016 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:40:43.087 [info] > git status -z -uall [91ms]
+2026-03-11 21:42:50.376 [info] > git config --get commit.template [16ms]
+2026-03-11 21:42:50.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-03-11 21:42:50.392 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/rakeshsarmakarra/way-back-home/.git/refs/remotes/origin/main'
+2026-03-11 21:42:50.394 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-03-11 21:42:50.428 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-11 21:42:50.498 [info] > git status -z -uall [89ms]
+2026-03-11 21:51:50.362 [info] > git check-ignore -v -z --stdin [3ms]

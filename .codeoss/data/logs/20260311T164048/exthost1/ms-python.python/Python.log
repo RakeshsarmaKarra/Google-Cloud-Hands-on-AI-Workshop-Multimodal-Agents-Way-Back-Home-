@@ -1,0 +1,6 @@
+2026-03-11 16:44:35.433 [warning] Dir "/home/rakeshsarmakarra/.pixi/envs" is not watchable (directory does not exist)
+2026-03-11 16:44:35.935 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-03-11 16:44:35.937 [info] Python interpreter path: /bin/python
+2026-03-11 16:44:36.195 [info] > pyenv which python
+2026-03-11 16:44:36.195 [info] cwd: .
+2026-03-11 16:44:37.894 [info] Starting Jedi language server for rakeshsarmakarra.
