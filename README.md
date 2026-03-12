@@ -57,7 +57,7 @@ Level 1 – Location Detection with Agents and MCP
 
 ![Image6](https://github.com/RakeshsarmaKarra/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-/blob/main/level_1/Level1%2031.jpg)
 
-**Test with ADK Web UI**
+**Test with ADK Web UI**                                                                                                                                                                                                         
 In case you closed your terminal.cloud shell then run this command first.
 ```bash
 gcloud config set project waybackhome-si35l62z308tymnk6f
@@ -72,26 +72,60 @@ echo "MCP Server: $MCP_SERVER_URL"
 # Start ADK web server
 uv run adk web
 ```
+  
+![Image6](https://github.com/RakeshsarmaKarra/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-/blob/main/level_1/Level1%2036.jpg)
 
+![Image6](https://github.com/RakeshsarmaKarra/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-/blob/main/level_1/Level1%2038.jpg)
 
-## 4. Repo Layout
+![Image6](https://github.com/RakeshsarmaKarra/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-/blob/main/level_1/Level1%2040.jpg)
 
-```text
-level_0/            # Avatar generator and identity setup
-  generator.py
-  customize.py
-  create_identity.py
+## 4. Walkthrough Notes (Step-by-step)
 
-level_1/            # Location inference, evidence generation, agents & MCP
-  setup/...
-  mcp-server/...
-  agent/...
-  outputs/          # Sample evidence from my run (png/mp4)
+I documented every step I ran (Cloud Shell commands, screenshots, and outputs) in this PDF:
 
-docs/
-  Google-Hands-on-AI-Multimodal-agents.pdf   # My detailed lab notes
+[Google Cloud - Hands on AI workshop: Multimodal agents (PDF)](https://github.com/RakeshsarmaKarra/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-/blob/main/Google%20Hands%20on%20AI%20-%20Multimodal%20agents.pdf)
 
-scripts/
-  verify_setup.py
-  set_env.sh
-  ...
+It covers:
+- Environment setup with `handsonai-credit` and Cloud Shell.
+- Level 0: avatar generation and registration.
+- Level 1: BigQuery star catalog setup, evidence generation, MCP server,
+  specialist agents, orchestrator, and ADK web UI run.[1]
+
+## 5. What I Implemented Myself
+
+Beyond following the codelab instructions, I:                                                                                                                                                                                                   
+- Structured the project as a reusable lab repo with clear levels and docs.                                                                                                                                                            
+- Created detailed step-by-step notes and verified every step end-to-end.                                                                                                                                                            
+- Understood and modified:                                                                                                                                                                                                   
+  - MCP server                                                                                                                                                                                                                                           
+  - Specialist agents                                                                                                                                                                                                                                           
+  - MCP tools and star tools                                                                                                                                                                                                                                           
+  - Orchestrator and callbacks                                                                                                                                                                                                                                           
+- Deployed and validated the MCP server on Cloud Run and used ADK Web UI                                                                                                                                                                                                   
+  to confirm the final rescue mission outcome                                                                                                                                                                                                    
+
+## 6. Running This Project Yourself (High-level)
+
+Prerequisites:
+- Personal Gmail account, access to Google Cloud trial/credits.
+- Cloud Shell enabled in the target GCP project.
+
+High-level steps:
+1. Claim credits and set up environment\n   using the official `handsonai-credit` repo (see instructions link above).
+2. Clone this repo into Cloud Shell:
+   ```bash
+   git clone https://github.com/<your-username>/Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-.git
+   cd Google-Cloud-Hands-on-AI-Workshop-Multimodal-Agents-Way-Back-Home-
+   ```
+## Acknowledgments
+
+This project is based on the concepts and labs from the **Google Cloud – Hands on AI Workshop: Multimodal Agents** held on **Mar 10, 2026, 11:00 AM Central Time (US)**.
+
+Special thanks to the speakers for this wonderful session and clear guidance:
+- **Ayo Adedeji** – Google
+- **Annie Wang** – Google
+
+Workshop resources:
+- LinkedIn event: https://www.linkedin.com/events/hands-onaiworkshop-multimodalag7435456595460902912/theater/
+- Recording: https://www.youtube.com/watch?v=wiZkPAReXmI
+- Lab environment & instructions: https://goo.gle/handsonai-live (event code: `handsonai`)
