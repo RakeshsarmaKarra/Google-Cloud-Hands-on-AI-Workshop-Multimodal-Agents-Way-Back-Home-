@@ -2,3 +2,6 @@
 handsonai-credit/
 way-back-home/
 .cache/
+.codeoss/
+.bash_history
+.gitconfig
